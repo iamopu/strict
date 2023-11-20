@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.full-width{
+    width: 100%;
+}
+.container{
+    width: 970px;
+    margin: 0 auto;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/* all common css */
+/* banner part start */
+#banner{
+    background: url(../img/strict-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+.banner_section{
+    text-align: center;
+    
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+.overly{
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.overly H4{
+    font-size: 120PX;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.line{
+    width: 600px;
+    height: 2px;
+    background-color: #15a4fa;
+    margin: 0 auto;
+}
+.overly p{
+    padding-top: 40px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    padding-bottom: 60px;
+}
+
+.overly a{
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff; ;
+    padding: 20px;
+    border: 1px solid #15a4fa; ;
+}
+/* banner part start */
+/* header part start  */
+#header{
+    background-color: #f6f9f9;
+}
+.header_part{
+    padding-top: 80px;
+    text-align: center;
+}
+.header_text h3{
+    font-size: 40px;
+    color: #2d3950;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.header_text p{
+    display: inline-block;
+    font-size: 20px;
+    color: #999999;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 110px;
+}
+/* header part ended */
+/* card part start */
+#card{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.card_part{
+    padding-left: 193px;
+    text-align: center;
+    display: flex;
+}
+.card_text{
+    width: 323px;
+    text-align: center;
+}
+.card_text button{
+    padding: 35px;
+    background-color: #15a4fa;
+}
+
+.card_text h4{
+    padding-top: 30px;
+    font-size: 22px;
+    color: #2d3950;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card_text p{
+    font-size: 15px;
+    color: #999999;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 25px;
+}
+
+/* card part ended */
+
+/* card section */
+#work{
+    height: 900px;
+    background-color: #f6f9f9;
+}
+
+.work_header{
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+.work_header h2{
+    font-size: 41px;
+    color: #2d3950;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.work_header p{
+    font-size: 15px;
+    color: #909090;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.work_part{
+    background-color: #f6f9f9;
+    padding-left: 200px;
+    text-align: center;
+}
+
+.work_card-1{
+    float: left;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+/* card section */
+
+/* puter part ended */
+#puter{
+
+    background: url(../img/puter.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    
+}
+.puter_section{
+    text-align: center;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+.puter_text{
+    display: inline-block;
+    text-align: center;
+
+}
+
+.puter_text h3{
+    font-size: 41px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 75px;
+    padding-bottom: 25px;
+}
+.puter_text p{
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 40px;
+}
